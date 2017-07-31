@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController modalPresentationStyle="currentContext" id="BYZ-38-t0r" customClass="ViewController" customModule="DesignableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="tlx-7z-xMz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IIZ-2g-QJz">
+                                <rect key="frame" x="46" y="611" width="283" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6j-iP-XcO" customClass="UIButtonX" customModule="DesignableView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="36"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <state key="normal" title="Sign Up"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.043137254899999998" green="0.62745098040000002" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" red="0.98431372549999996" green="0.68235294120000001" blue="0.16862745100000001" alpha="1" colorSpace="deviceRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="aT6-xd-7cw" kind="presentation" id="3UA-q8-fYZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMh-rb-MB4" customClass="UIButtonX" customModule="DesignableView" customModuleProvider="target">
+                                        <rect key="frame" x="146.5" y="0.0" width="136.5" height="36"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <state key="normal" title="Log In"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="popInDelay">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.043137254899999998" green="0.62745098040000002" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" red="0.98431372549999996" green="0.68235294120000001" blue="0.16862745100000001" alpha="1" colorSpace="deviceRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tlx-7z-xMz" secondAttribute="trailing" id="4zK-1T-ozv"/>
+                            <constraint firstItem="IIZ-2g-QJz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="7f7-eM-QAc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IIZ-2g-QJz" secondAttribute="bottom" constant="20" id="SbP-j6-WKx"/>
+                            <constraint firstItem="tlx-7z-xMz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VuQ-uH-QAy"/>
+                            <constraint firstItem="tlx-7z-xMz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZvA-oa-fZA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tlx-7z-xMz" secondAttribute="bottom" id="h9w-Cj-QzN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IIZ-2g-QJz" secondAttribute="trailing" constant="30" id="tro-W9-L8D"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="30"/>
+        </scene>
+        <!--SignupVC-->
+        <scene sceneID="lWp-2u-97d">
+            <objects>
+                <viewController id="aT6-xd-7cw" customClass="SignupVC" customModule="DesignableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <visualEffectView key="view" opaque="NO" contentMode="scaleToFill" id="pqu-1h-czv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sB9-RD-fMa">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jE1-IV-bHi">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <connections>
+                                        <action selector="dismissPopUp:" destination="aT6-xd-7cw" eventType="touchUpInside" id="CkR-eq-LfU"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPD-Yb-tQT" customClass="UIViewX" customModule="DesignableView" customModuleProvider="target">
+                                    <rect key="frame" x="37" y="183" width="300" height="300"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="rbT-02-GWk">
+                                            <rect key="frame" x="30" y="53" width="240" height="195"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="it is signup!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DG-HP-Fj8">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="36"/>
+                                                    <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eEp-wB-9kl">
+                                                    <rect key="frame" x="0.0" y="53" width="240" height="36"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WIx-54-xqf">
+                                                    <rect key="frame" x="0.0" y="106" width="240" height="36"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIa-r5-fJE" customClass="UIButtonX" customModule="DesignableView" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="159" width="240" height="36"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                                    <state key="normal" title="Sign Up"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="animateDelay">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="animateFrom">
+                                                            <integer key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.0" green="0.32549019610000002" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                            <color key="value" red="0.95686274510000002" green="0.78823529410000004" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="SignUp:" destination="aT6-xd-7cw" eventType="touchUpInside" id="uO1-vf-Ch1"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="HDT-Df-Vxa"/>
+                                        <constraint firstItem="rbT-02-GWk" firstAttribute="centerY" secondItem="zPD-Yb-tQT" secondAttribute="centerY" id="JgA-5N-kiP"/>
+                                        <constraint firstAttribute="height" constant="300" id="K8g-s5-j7u"/>
+                                        <constraint firstAttribute="trailing" secondItem="rbT-02-GWk" secondAttribute="trailing" constant="30" id="a22-1Q-Ou2"/>
+                                        <constraint firstItem="rbT-02-GWk" firstAttribute="leading" secondItem="zPD-Yb-tQT" secondAttribute="leading" constant="30" id="cZm-2b-cMu"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19V-Wh-4Ic" customClass="UIViewX" customModule="DesignableView" customModuleProvider="target">
+                                    <rect key="frame" x="137" y="133" width="100" height="100"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="jSj-JA-nkz"/>
+                                        <constraint firstAttribute="height" constant="100" id="lnn-fC-aom"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="50"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="jE1-IV-bHi" firstAttribute="top" secondItem="sB9-RD-fMa" secondAttribute="top" id="0ba-Fn-yND"/>
+                                <constraint firstItem="19V-Wh-4Ic" firstAttribute="centerX" secondItem="sB9-RD-fMa" secondAttribute="centerX" id="Tf4-fM-SV6"/>
+                                <constraint firstItem="zPD-Yb-tQT" firstAttribute="centerY" secondItem="sB9-RD-fMa" secondAttribute="centerY" id="Xu5-3Q-U2X"/>
+                                <constraint firstAttribute="trailing" secondItem="jE1-IV-bHi" secondAttribute="trailing" id="cua-mQ-R79"/>
+                                <constraint firstAttribute="bottom" secondItem="jE1-IV-bHi" secondAttribute="bottom" id="gtp-nZ-W0l"/>
+                                <constraint firstItem="zPD-Yb-tQT" firstAttribute="top" secondItem="19V-Wh-4Ic" secondAttribute="bottom" constant="-50" id="mTH-dy-ff7"/>
+                                <constraint firstItem="zPD-Yb-tQT" firstAttribute="centerX" secondItem="sB9-RD-fMa" secondAttribute="centerX" id="noR-gJ-y1u"/>
+                                <constraint firstItem="jE1-IV-bHi" firstAttribute="leading" secondItem="sB9-RD-fMa" secondAttribute="leading" id="wni-n3-LMK"/>
+                            </constraints>
+                        </view>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F46-fU-khE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="29"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="download.jpeg" width="168" height="300"/>
+    </resources>
+</document>
