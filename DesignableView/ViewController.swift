@@ -7,25 +7,8 @@
 //
 
 import UIKit
-
-
-
-enum Colors {
-    static let red = UIColor(red: 1.0, green: 0.0, blue: 77.0/255.0, alpha: 1.0)
-    static let blue = UIColor.blue
-    static let green = UIColor(red: 35.0/255.0 , green: 233/255, blue: 173/255.0, alpha: 1.0)
-    static let yellow = UIColor(red: 1, green: 209/255, blue: 77.0/255.0, alpha: 1.0)
-}
-
-enum Images {
-    static let box = #imageLiteral(resourceName: "apple")
-    static let triangle = #imageLiteral(resourceName: "android-logo")
-    static let circle = #imageLiteral(resourceName: "dribbble-logo")
-    static let swirl = #imageLiteral(resourceName: "windows-logo")
-}
-
 class ViewController: UIViewController {
-
+    
     var emitter = CAEmitterLayer()
     var colors:[UIColor] = [
         Colors.red,
@@ -35,10 +18,10 @@ class ViewController: UIViewController {
     ]
     
     var images:[UIImage] = [
-        Images.box,
-        Images.triangle,
+       Images.box,
+//        Images.triangle,
         Images.circle,
-        Images.swirl
+        //Images.swirl
     ]
     
     var velocities:[Int] = [
@@ -66,7 +49,7 @@ class ViewController: UIViewController {
         for index in 0..<16 {
             let cell = CAEmitterCell()
             
-            cell.birthRate = 4.0
+            cell.birthRate = 1
             cell.lifetime = 14.0
             cell.lifetimeRange = 0
             cell.velocity = CGFloat(getRandomVelocity())
@@ -77,8 +60,9 @@ class ViewController: UIViewController {
             cell.spinRange = 0
             cell.color = getNextColor(i: index)
             cell.contents = getNextImage(i: index)
-            cell.scaleRange = 0.25
-            cell.scale = 0.1
+            cell.scale = 0.3
+            cell.scaleRange = 0.4
+            
             
             cells.append(cell)
         }
@@ -107,7 +91,7 @@ class ViewController: UIViewController {
     }
     
     private func getNextImage(i:Int) -> CGImage {
-        return images[i % 4].cgImage!
+        return images[i % 2].cgImage!
     }
     override func viewDidLoad() {
         super.viewDidLoad()

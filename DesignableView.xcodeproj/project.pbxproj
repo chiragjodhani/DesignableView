@@ -19,6 +19,8 @@
 		C24575D31F2F17E0009EA6F6 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24575C91F2F17E0009EA6F6 /* UIViewXRadialGradient.swift */; };
 		C24575D41F2F17E0009EA6F6 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24575CA1F2F17E0009EA6F6 /* UIVisualEffectViewX.swift */; };
 		C24575D81F2F3066009EA6F6 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24575D71F2F3066009EA6F6 /* Emitter.swift */; };
+		C24575DC1F2F56FA009EA6F6 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = C24575DB1F2F56FA009EA6F6 /* key.png */; };
+		C24575DE1F2F5A35009EA6F6 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24575DD1F2F5A35009EA6F6 /* BounceButton.swift */; };
 		C27FFE991F2C9BCE00CC2720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27FFE981F2C9BCE00CC2720 /* AppDelegate.swift */; };
 		C27FFE9B1F2C9BCE00CC2720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27FFE9A1F2C9BCE00CC2720 /* ViewController.swift */; };
 		C27FFE9E1F2C9BCF00CC2720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27FFE9C1F2C9BCF00CC2720 /* Main.storyboard */; };
@@ -59,6 +61,8 @@
 		C24575C91F2F17E0009EA6F6 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
 		C24575CA1F2F17E0009EA6F6 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
 		C24575D71F2F3066009EA6F6 /* Emitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
+		C24575DB1F2F56FA009EA6F6 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = DesignableX/key.png; sourceTree = "<group>"; };
+		C24575DD1F2F5A35009EA6F6 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 		C27FFE951F2C9BCE00CC2720 /* DesignableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27FFE981F2C9BCE00CC2720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C27FFE9A1F2C9BCE00CC2720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				C24575C81F2F17E0009EA6F6 /* UIViewX.swift */,
 				C24575C91F2F17E0009EA6F6 /* UIViewXRadialGradient.swift */,
 				C24575CA1F2F17E0009EA6F6 /* UIVisualEffectViewX.swift */,
+				C24575DD1F2F5A35009EA6F6 /* BounceButton.swift */,
 			);
 			path = DesignableX;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C24575C01F2F17E0009EA6F6 /* DesignableX */,
+				C24575DB1F2F56FA009EA6F6 /* key.png */,
 				C24575801F2EEA20009EA6F6 /* download.jpeg */,
 				C24575D71F2F3066009EA6F6 /* Emitter.swift */,
 				C27FFE981F2C9BCE00CC2720 /* AppDelegate.swift */,
@@ -279,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24575DC1F2F56FA009EA6F6 /* key.png in Resources */,
 				C27FFEA31F2C9BCF00CC2720 /* LaunchScreen.storyboard in Resources */,
 				C24575811F2EEA20009EA6F6 /* download.jpeg in Resources */,
 				C27FFEA01F2C9BCF00CC2720 /* Assets.xcassets in Resources */,
@@ -318,6 +325,7 @@
 				C24575D81F2F3066009EA6F6 /* Emitter.swift in Sources */,
 				C24575D11F2F17E0009EA6F6 /* UIViewControllerX.swift in Sources */,
 				C24575CF1F2F17E0009EA6F6 /* UITextFieldX.swift in Sources */,
+				C24575DE1F2F5A35009EA6F6 /* BounceButton.swift in Sources */,
 				C27FFECD1F2CA0E200CC2720 /* SignupVC.swift in Sources */,
 				C24575CE1F2F17E0009EA6F6 /* UISliderX.swift in Sources */,
 				C27FFE991F2C9BCE00CC2720 /* AppDelegate.swift in Sources */,

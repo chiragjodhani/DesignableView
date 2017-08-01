@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 class Emitter {
-    static func get(with image: UIImage,color: UIColor) -> CAEmitterLayer {
+    static func get(with image: UIImage) -> CAEmitterLayer {
         let emitter  = CAEmitterLayer()
         emitter.emitterShape = kCAEmitterLayerLine
         emitter.emitterCells = generateEmitterCells(with: image)
